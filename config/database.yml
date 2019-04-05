@@ -1,0 +1,19 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: popdeem-web-devel
+  host: localhost
+  username: niall
+  password: popweb123
+
+test:
+  <<: *default
+  database: popdeem-web-test
+  host: localhost
+  username: niall
+  password: popweb123

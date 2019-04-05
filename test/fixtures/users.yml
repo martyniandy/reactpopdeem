@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  sex: MyString
+  college: MyString
+  type: 
+  last_location_lat: 9.99
+  last_location_long: 9.99
+  popdeem_id: 
+  app_version: MyString
+  user_token: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  sex: MyString
+  college: MyString
+  type: 
+  last_location_lat: 9.99
+  last_location_long: 9.99
+  popdeem_id: 
+  app_version: MyString
+  user_token: MyString

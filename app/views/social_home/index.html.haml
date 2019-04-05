@@ -1,0 +1,20 @@
+- flash.each do |key, value|
+  - @error = value
+#root
+= react_component('SocialHome',
+  user: current_user,
+  customer: current_customer.to_json,
+  theme: current_customer.customer_theme,
+  req_token: session[:_csrf_token],
+  user_profile_picture: @user_profile_picture_url,
+  share_hashtag_image: asset_url('share_hashtag.png'),
+  reward_box_image: asset_url('reward_box.png'),
+  share_camera_image: asset_url('camera.png'),
+  facebook_logo_share: asset_url('facebook_logo_share.png'),
+  twitter_logo_share: asset_url('twitter_logo_share.png'),
+  instagram_logo_share: asset_url('instagram_logo_share.png'),
+  error: @error,
+  instagram_icon_url: asset_url('instagram-icon.png'),
+  facebook_icon_url: asset_url('facebook-icon.png'), 
+  twitter_icon_url: asset_url('twitter-icon.png'),
+  home_background_image: asset_url('como_home_image.png'))

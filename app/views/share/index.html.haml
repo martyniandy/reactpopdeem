@@ -1,0 +1,2 @@
+#root
+= react_component('Share', user: current_user, customer: current_customer.to_json, theme: current_customer.customer_theme, req_token: session[:_csrf_token], reward_id: @reward_id)

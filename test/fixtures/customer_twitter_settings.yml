@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  custoomer: one
+  consumer_key: MyString
+  consumer_secret: MyString
+
+two:
+  custoomer: two
+  consumer_key: MyString
+  consumer_secret: MyString

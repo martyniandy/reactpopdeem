@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  social_account_id: MyString
+  twitter_id: MyString
+  tester: false
+  access_token: MyString
+  access_secret: MyString
+  expiration_time: 
+  profile_picture_url: MyString
+  user: one
+
+two:
+  social_account_id: MyString
+  twitter_id: MyString
+  tester: false
+  access_token: MyString
+  access_secret: MyString
+  expiration_time: 
+  profile_picture_url: MyString
+  user: two

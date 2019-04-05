@@ -1,0 +1,103 @@
+// Place all the styles related to the social_login controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	height:100vh;
+	position: relative;
+}
+
+.image_container {
+	width: 100%;
+	height: calc(100vh - 380px);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(asset-path('default_login.png'));
+}
+
+.buttons_container {
+	bottom: 0;
+	height: 330px;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+}
+
+.login_text_container {
+	height: 120px;
+	text-align: left;
+	colour: black;
+	.login_text_title {
+		margin-top: 15px;
+		margin-left: 22px;
+		margin-bottom: 5px;
+		font-size: 12pt;
+		color: #053F67;
+	}
+	.login_text_reward_name {
+		margin-left: 22px;
+		margin-bottom: 5px;
+		display: inline-block;
+		font-size: 14pt;
+	}
+	.login_text_reward_description {
+		margin-left: 22px;
+		display: inline-block;
+		font-size: 10pt;
+	}
+}
+
+.social_button {
+	width: calc(100% - 40px);
+	margin: 10px 20px;
+	height: 45px;
+	display: table;
+	overflow: hidden;
+	border-radius: 5px;
+	overflow: hidden;
+	color: white;
+	cursor: pointer;
+	.button_title {
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.instagram_button {
+	background-color:#EC5033;
+	background-size: cover;
+}
+
+.facebook_button {
+	background-color: #4468B0;
+}
+
+.twitter_button {
+	background-color: #50B4F2;
+}
+
+.loading_view {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	.inner {
+		width: 90%;
+		margin: auto;
+		height: 100px;
+		background-color: white;
+		border-radius: 5px;
+	}
+}
+
+.termsandconditions {
+	font-size: 8pt;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}

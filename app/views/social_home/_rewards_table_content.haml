@@ -1,0 +1,11 @@
+- @rewards.each do |reward|
+	.reward_container
+		.reward_image
+			= image_tag "pduikit_starG.png"
+		.reward_body
+			.reward_title
+				= reward[:title]
+			.reward_description
+				= reward[:description]
+			.reward_rules
+				= reward[:rules]

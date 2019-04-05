@@ -1,0 +1,6 @@
+#root
+= react_component('Messages',
+  user: current_user,
+  customer: current_customer.to_json,
+  theme: current_customer.customer_theme,
+  req_token: session[:_csrf_token])

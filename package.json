@@ -1,0 +1,31 @@
+{
+  "name": "popdeem-web-client",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^3.0.2",
+    "babel-preset-react": "^6.24.1",
+    "coffeescript": "1.12.7",
+    "dateformat": "^3.0.2",
+    "framework7-react": "^0.9.3-2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-ios-switch": "^0.1.19",
+    "react-router-dom": "^4.2.2",
+    "react_ujs": "^2.4.0",
+    "webpacker-react": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-plugin-react": "^7.5.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "scripts": {
+    "webpack:deploy": "webpack --config=config/webpack/production.js -p",
+    "heroku-postbuild": "npm run webpack:deploy"
+  },
+  "engines": {
+    "node" : "8.9.0"
+  }
+}

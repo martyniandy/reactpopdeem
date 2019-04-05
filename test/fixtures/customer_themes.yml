@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: one
+  colour_primary: MyString
+  colour_primary_inverse: MyString
+  colour_view_background: MyString
+  colour_table_background: MyString
+  colour_primary_text: MyString
+  colour_secondary_text: MyString
+  colour_tertiary_text: MyString
+  colour_tableview_seperator: MyString
+  colour_tabbar_background: MyString
+  colour_tabbar_foreground: MyString
+  colour_tabbar_selection: MyString
+  colour_home_header_text: MyString
+  image_home_header: MyString
+  image_social_login: MyString
+
+two:
+  customer: two
+  colour_primary: MyString
+  colour_primary_inverse: MyString
+  colour_view_background: MyString
+  colour_table_background: MyString
+  colour_primary_text: MyString
+  colour_secondary_text: MyString
+  colour_tertiary_text: MyString
+  colour_tableview_seperator: MyString
+  colour_tabbar_background: MyString
+  colour_tabbar_foreground: MyString
+  colour_tabbar_selection: MyString
+  colour_home_header_text: MyString
+  image_home_header: MyString
+  image_social_login: MyString

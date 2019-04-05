@@ -1,0 +1,86 @@
+{
+    "status": "User Data",
+    "user": {
+        "facebook": {
+            "social_account_id": 58176,
+            "facebook_id": "109605649782892",
+            "tester": "false",
+            "access_token": "EAAYP4vypxZC4BAOk4Ywgtl8T4U9CJVxLcMtZBewwltZA4a9unwTsJ3TPxEJV7q9w1t3cEqSf81g4iB1TsoR8QxNyuXR8XKg4EYVt1qaWmjVgLN4FXyLgyVzpJrZATzhxLFf22MzdJU530s4TQc1WOIRV6NqSezJxeSk243mVWTxgeQnRVF72BqNkZBYibyH4ZD",
+            "expiration_time": 1514114047,
+            "profile_picture_url": "https://s3-eu-west-1.amazonaws.com/popdeem-staging/social_accounts/profile_images/000/058/176/medium/21740593_113473916062732_2524106158245979871_n.jpg?1506674518",
+            "score": {
+                "total_score": {
+                    "value": "7.5"
+                },
+                "influence_score": {
+                    "reach_score_value": "0.0",
+                    "engagement_score_value": "0.0",
+                    "frequency_score_value": "75.0"
+                },
+                "advocacy_score": {
+                    "value": 4
+                }
+            },
+            "favourite_brand_ids": [],
+            "default_privacy_setting": ""
+        },
+        "twitter": {
+            "social_account_id": "",
+            "twitter_id": "",
+            "tester": "false",
+            "access_token": "",
+            "access_secret": "",
+            "expiration_time": "",
+            "profile_picture_url": "",
+            "score": {
+                "total_score": {
+                    "value": 0
+                },
+                "influence_score": {
+                    "reach_score_value": 0,
+                    "engagement_score_value": 0,
+                    "frequency_score_value": 0
+                },
+                "advocacy_score": {
+                    "value": 0
+                }
+            },
+            "favourite_brand_ids": []
+        },
+        "instagram": {
+            "social_account_id": "",
+            "instagram_id": "",
+            "tester": "false",
+            "access_token": "",
+            "access_secret": "",
+            "profile_picture_url": "",
+            "score": {
+                "total_score": {
+                    "value": 0
+                },
+                "influence_score": {
+                    "reach_score_value": 0,
+                    "engagement_score_value": 0,
+                    "frequency_score_value": 0
+                },
+                "advocacy_score": {
+                    "value": 0
+                }
+            },
+            "favourite_brand_ids": []
+        },
+        "first_name": "John",
+        "last_name": "Jackson",
+        "sex": "undisclosed",
+        "college": " ",
+        "type": "general",
+        "location": {
+            "latitude": "37.422",
+            "longitude": "-122.084"
+        },
+        "id": "58799",
+        "app_version": "-",
+        "user_token": "84e275dbb23da14798d66685619fc1dd",
+        "suspend_until": ""
+    }
+}
