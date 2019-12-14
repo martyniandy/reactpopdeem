@@ -9,7 +9,7 @@
     "framework7-react": "^0.9.3-2",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.0.1",
     "react-fontawesome": "^1.6.1",
     "react-ios-switch": "^0.1.19",
     "react-router-dom": "^4.2.2",
